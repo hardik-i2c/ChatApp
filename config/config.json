@@ -2,22 +2,22 @@
   "development": {
     "username": "epiz_29197719",
     "password": "7Ez7BFGCnax8W9v",
-    "database": "epiz_29197719_XXX",
-    "host": "sqlXXX.epizy.com",
+    "database": "epiz_29197719_chat",
+    "host": "sql202.epizy.com",
     "dialect": "mysql"
   },
   "test": {
     "username": "epiz_29197719",
     "password": "7Ez7BFGCnax8W9v",
-    "database": "epiz_29197719_XXX",
-    "host": "sqlXXX.epizy.com",
+    "database": "epiz_29197719_chat",
+    "host": "sql202.epizy.com",
     "dialect": "mysql"
   },
   "production": {
     "username": "epiz_29197719",
     "password": "7Ez7BFGCnax8W9v",
-    "database": "epiz_29197719_XXX",
-    "host": "sqlXXX.epizy.com",
+    "database": "epiz_29197719_chat",
+    "host": "sql202.epizy.com",
     "dialect": "mysql"
   }
 }
