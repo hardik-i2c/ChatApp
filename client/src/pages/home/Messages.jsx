@@ -1,3 +1,4 @@
+/* */
 import React, { Fragment, useEffect, useState } from "react";
 import { gql, useLazyQuery, useMutation } from "@apollo/client";
 import { Col, Form } from "react-bootstrap";
@@ -5,7 +6,6 @@ import { Col, Form } from "react-bootstrap";
 import { useMessageDispatch, useMessageState } from "../../context/message";
 
 import Message from "./message";
-
 const SEND_MESSAGE = gql`
   mutation sendMessage($to: String!, $content: String!) {
     sendMessage(to: $to, content: $content) {
