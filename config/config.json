@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "epiz_29197719",
-    "password": "7Ez7BFGCnax8W9v",
-    "database": "epiz_29197719_chat",
-    "host": "sql202.epizy.com",
+    "username": "epiz_29207594",
+    "password": "ru4OvdcqScRFL",
+    "database": "epiz_29207594_chats",
+    "host": "http://185.27.134.10/",
     "dialect": "mysql"
   },
   "test": {
