@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "epiz_29207594",
-    "password": "ru4OvdcqScRFL",
-    "database": "epiz_29207594_chats",
-    "host": "http://185.27.134.10/",
+    "username": "root",
+    "password": "",
+    "database": "chat",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
