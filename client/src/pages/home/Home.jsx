@@ -1,3 +1,4 @@
+/**/
 import React, { Fragment, useEffect } from "react";
 import { Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -9,7 +10,7 @@ import { gql, useSubscription } from "@apollo/client";
 
 import User from "./Users";
 import Message from "./Messages";
-
+/* */
 const NEW_MESSAGE = gql`
   subscription newMessage {
     newMessage {
@@ -28,7 +29,6 @@ export default function Home() {
   const { user } = useAuthState();
   const { data: messageData, error: messageError } =
     useSubscription(NEW_MESSAGE);
-
   useEffect(() => {
     if (messageError) console.log(messageError);
     if (messageData) {
